@@ -1,0 +1,57 @@
+.update-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 450px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+.update-form:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+.update-form .input__info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.update-form .input__info .MuiTextField-root {
+  width: 100%;
+}
+.update-form .input__date .MuiTextField-root {
+  width: 100%;
+}
+.update-form .input__email {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.update-form .input__email .MuiTextField-root,
+.update-form .input__email .MuiSelect-root {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  transition: border-color 0.3s ease;
+}
+.update-form .input__email .MuiTextField-root:focus,
+.update-form .input__email .MuiSelect-root:focus {
+  border-color: #007bff;
+  outline: none;
+}
+.update-form .input__btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.update-form .input__btn .MuiButton-root {
+  width: 48%;
+  transition: background-color 0.3s ease;
+}
+.update-form .input__btn .MuiButton-root:hover {
+  background-color: #ececec;
+}/*# sourceMappingURL=UpdateForm.css.map */

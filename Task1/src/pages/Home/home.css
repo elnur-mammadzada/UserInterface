@@ -1,0 +1,66 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  background-color: #f7f9fc;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.home__button {
+  font-size: 1rem;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background-color: #e57373;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.home__button:hover {
+  background-color: #d32f2f;
+  transform: translateY(-2px);
+}
+.home__button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.home__button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(211, 47, 47, 0.5);
+}
+
+.home__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.home__table th, .home__table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.home__table th {
+  background-color: #e57373;
+  color: white;
+}
+.home__table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.home__table tr:hover {
+  background-color: #f1c2c2;
+}/*# sourceMappingURL=home.css.map */

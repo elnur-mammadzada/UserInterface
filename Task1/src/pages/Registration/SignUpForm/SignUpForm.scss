@@ -1,0 +1,50 @@
+.class {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 450px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  .input__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+    .MuiTextField-root {
+      width: 100%;
+    }
+  }
+
+  .input__date {
+    .MuiTextField-root {
+      width: 100%;
+    }
+  }
+
+  .input__email {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .MuiTextField-root,
+    .MuiSelect-root {
+      width: 100%;
+    }
+  }
+
+  .input__btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+    .MuiButton-root {
+      width: 48%;
+    }
+  }
+
+  
+}

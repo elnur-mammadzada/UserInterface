@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  &__wrapper {
+    text-align: center;
+    background-color: #f4f1f1;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+
+  &__text {
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+}
